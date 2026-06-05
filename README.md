@@ -1,109 +1,251 @@
 # ComPDF SDK for Web (Nuxt.js Example)
 
-As part of the KDAN ecosystem, <u>[ComPDF SDK for Web](https://www.compdf.com/web?utm_source=github&utm_medium=compdfkit-web-example-nuxtjs&utm_campaign=compdfkit_web_example_nuxtjs_repo&ref_platform_id=github_compdfkit)</u> stands out as a robust JavaScript PDF library, delivering an exceptional and interactive UI for developers. Ideal for those looking to enrich their web applications with advanced PDF capabilities, this SDK supports the creation of webviewers in multiple frameworks, including <u>[Vanilla JavaScript](https://www.compdf.com/guides/pdf-sdk/web/make-a-program#integrate-into-a-vanilla-javascript-project?utm_source=github&utm_medium=compdfkit-web-example-nuxtjs&utm_campaign=compdfkit_web_example_nuxtjs_repo&ref_platform_id=github_compdfkit)</u>, <u>[Vue.js](https://www.compdf.com/guides/pdf-sdk/web/frameworks/vue?utm_source=github&utm_medium=compdfkit-web-example-nuxtjs&utm_campaign=compdfkit_web_example_nuxtjs_repo&ref_platform_id=github_compdfkit)</u>, <u>[React](https://www.compdf.com/guides/pdf-sdk/web/fram?utm_source=github&utm_medium=compdfkit-web-example-nuxtjs&utm_campaign=compdfkit_web_example_nuxtjs_repo&ref_platform_id=github_compdfkit)</u>, <u>[Angular](https://www.compdf.com/guides/pdf-sdk/web/frameworks/angular?utm_source=github&utm_medium=compdfkit-web-example-nuxtjs&utm_campaign=compdfkit_web_example_nuxtjs_repo&ref_platform_id=github_compdfkit)</u>, <u>[Next.js](https://www.compdf.com/guides/pdf-sdk/web/frameworks/nextjs?utm_source=github&utm_medium=compdfkit-web-example-nuxtjs&utm_campaign=compdfkit_web_example_nuxtjs_repo&ref_platform_id=github_compdfkit)</u>, <u>[Nuxt.js](https://www.compdf.com/guides/pdf-sdk/web/frameworks/nuxtjs?utm_source=github&utm_medium=compdfkit-web-example-nuxtjs&utm_campaign=compdfkit_web_example_nuxtjs_repo&ref_platform_id=github_compdfkit)</u>, <u>[Svelte](https://www.compdf.com/guides/pdf-sdk/web/frameworks/svelte?utm_source=github&utm_medium=compdfkit-web-example-nuxtjs&utm_campaign=compdfkit_web_example_nuxtjs_repo&ref_platform_id=github_compdfkit)</u>, and more.
+As part of the KDAN ecosystem, [ComPDF SDK for Web](https://www.compdf.com/web?utm_source=github_readme_web_example_nuxtjs&utm_medium=referral&utm_campaign=github_readme_web_example_nuxtjs) is a powerful JavaScript-based PDF library that enables developers to easily add PDF viewing, annotation, editing, and more to their applications across multiple frameworks including [Vanilla JavaScript](https://www.compdf.com/guides/pdf-sdk/web/make-a-program#integrate-into-a-vanilla-javascript-project?utm_source=github_readme_web_example_nuxtjs&utm_medium=referral&utm_campaign=github_readme_web_example_nuxtjs), [Vue.js](https://www.compdf.com/guides/pdf-sdk/web/frameworks/vue?utm_source=github_readme_web_example_nuxtjs&utm_medium=referral&utm_campaign=github_readme_web_example_nuxtjs), [React](https://www.compdf.com/guides/pdf-sdk/web/frameworks/react?utm_source=github_readme_web_example_nuxtjs&utm_medium=referral&utm_campaign=github_readme_web_example_nuxtjs), [Angular](https://www.compdf.com/guides/pdf-sdk/web/frameworks/angular?utm_source=github_readme_web_example_nuxtjs&utm_medium=referral&utm_campaign=github_readme_web_example_nuxtjs), [Next.js](https://www.compdf.com/guides/pdf-sdk/web/frameworks/nextjs?utm_source=github_readme_web_example_nuxtjs&utm_medium=referral&utm_campaign=github_readme_web_example_nuxtjs), [Nuxt.js](https://www.compdf.com/guides/pdf-sdk/web/frameworks/nuxtjs?utm_source=github_readme_web_example_nuxtjs&utm_medium=referral&utm_campaign=github_readme_web_example_nuxtjs), and more — with just a few lines of code.
 
-[ComPDF SDK](https://www.compdf.com/?utm_source=github&utm_medium=compdfkit-web-example-nuxtjs&utm_campaign=compdfkit_web_example_nuxtjs_repo&ref_platform_id=github_compdfkit) seamlessly operates on [Web](https://www.compdf.com/web?utm_source=github&utm_medium=compdfkit-web-example-nuxtjs&utm_campaign=compdfkit_web_example_nuxtjs_repo&ref_platform_id=github_compdfkit), [Windows](https://www.compdf.com/windows?utm_source=github&utm_medium=compdfkit-web-example-nuxtjs&utm_campaign=compdfkit_web_example_nuxtjs_repo&ref_platform_id=github_compdfkit), [Android](https://www.compdf.com/android?utm_source=github&utm_medium=compdfkit-web-example-nuxtjs&utm_campaign=compdfkit_web_example_nuxtjs_repo&ref_platform_id=github_compdfkit), [iOS](https://www.compdf.com/ios?utm_source=github&utm_medium=compdfkit-web-example-nuxtjs&utm_campaign=compdfkit_web_example_nuxtjs_repo&ref_platform_id=github_compdfkit), [Mac](https://www.compdf.com/contact-sales?utm_source=github&utm_medium=compdfkit-web-example-nuxtjs&utm_campaign=compdfkit_web_example_nuxtjs_repo&ref_platform_id=github_compdfkit), and [Server](https://www.compdf.com/server?utm_source=github&utm_medium=compdfkit-web-example-nuxtjs&utm_campaign=compdfkit_web_example_nuxtjs_repo&ref_platform_id=github_compdfkit), with support for cross-platform frameworks such as [React Native](https://www.compdf.com/react-native?utm_source=github&utm_medium=compdfkit-web-example-nuxtjs&utm_campaign=compdfkit_web_example_nuxtjs_repo&ref_platform_id=github_compdfkit), [Flutter](https://www.compdf.com/flutter?utm_source=github&utm_medium=compdfkit-web-example-nuxtjs&utm_campaign=compdfkit_web_example_nuxtjs_repo&ref_platform_id=github_compdfkit), etc.
-
-If you find this library helpful, please consider giving us a ⭐ **Star** on GitHub! Have feedback or questions? Join the conversation in our [Discussions](https://github.com/orgs/ComPDFKit/discussions).
+> If you find this library helpful, please consider giving us a ⭐ **Star** on GitHub! Have feedback or questions? Join the conversation in our [Discussions](https://github.com/orgs/ComPDFKit/discussions).
 
 ![webui](https://www.compdf.com/images/platform/web/webDemo@2x.png)
 
 **Why ComPDF SDK?**
 
-* **Easy to Integrate:** Integrate PDF functionalities easily with our powerful SDK and clear documentation and guides with few lines of code.
+* **Easy to Integrate**: Clear docs and a powerful JavaScript API let you add PDF features in just a few lines of code.
+
+* **Fully Customizable UI**: Ship your own look and feel with source-level control over every UI element.
+
+* **Comprehensive PDF Features**: View, annotate, edit, convert, OCR, redact, sign, compress, compare, and more — all in one SDK.
+
+* **5×24 Expert Support**: One-to-one technical assistance via email, phone, and on-site service.
+
+## Table of Contents
+
+- [Supported Features](#supported-features)
+- [How to Make a Nuxt.js PDF Viewer App](#how-to-make-a-nuxtjs-pdf-viewer-app)
+- [Free Trial and License](#free-trial-and-license)
+- [Changelog](#changelog)
+- [Support](#support)
+- [Note](#note)
+- [Related](#related)
+
+## Supported Features
+
+* **Viewer**: 
   
-* **Fully Customizable UI:** Design a unique interface for your products with fully customizable UI source code by a high-performing SDK.
+  - Fast and smooth PDF rendering and viewing
+  * Display Modes - single/double page, vertical & horizontal scrolling, cover mode, crop mode
+  * Text Search & Selection
+  * PDF Navigation - outlines, bookmarks
+
+* **Annotations**:
   
-* **[Comprehensive PDF Features:](https://www.compdf.com/pdf-sdk/features-list?utm_source=github&utm_medium=compdfkit-web-example-nuxtjs&utm_campaign=compdfkit_web_example_nuxtjs_repo&ref_platform_id=github_compdfkit)** Supports generation, viewing, annotation, page editing, content editing, conversion, OCR, redaction, signing, forms, parsing, measurement, compression, comparison, color separation, batch processing, and more.
+  * Notes - add longer comments with adjustable icon shape and color
   
-* **Faster Time-to-Market:** Comprehensive SDK libraries save your time and expenses and roll out your applications and projects.
+  * Ink - freehand drawing with customizable color, opacity, line thickness
   
-* **High-quality Service:** We provide 24/7 professional one-to-one technical support, including onsite service and remote assistance via phone and email.
+  * Text - add, move, resize text directly on page
   
-
-## Related
-
-* Download <u>[ComPDF SDK for Web](https://www.npmjs.com/package/@compdfkit_pdf_sdk/webviewer)</u> in npm.
-* Experience how our WebViewer perform by visiting <u>[ComPDF's Online Demo](https://www.compdf.com/webviewer/demo?utm_source=github&utm_medium=compdfkit-web-example-nuxtjs&utm_campaign=compdfkit_web_example_nuxtjs_repo&ref_platform_id=github_compdfkit)</u>
-* Integrating ComPDF SDK for Web into <u>[Salesforce](https://www.compdf.com/pdf-sdk/salesforce?utm_source=github&utm_medium=compdfkit-web-example-nuxtjs&utm_campaign=compdfkit_web_example_nuxtjs_repo&ref_platform_id=github_compdfkit)</u>, <u>[SharePoint](https://www.compdf.com/pdf-sdk/sharepoint?utm_source=github&utm_medium=compdfkit-web-example-nuxtjs&utm_campaign=compdfkit_web_example_nuxtjs_repo&ref_platform_id=github_compdfkit)</u>, <u>[Microsoft Teams](https://www.compdf.com/contact-sales?utm_source=github&utm_medium=compdfkit-web-example-nuxtjs&utm_campaign=compdfkit_web_example_nuxtjs_repo&ref_platform_id=github_compdfkit)</u>, and more.
-* <u>[ComPDF Standalone Deployment for Web](https://www.compdf.com/blog/compdfkit-standalone-deployment-for-web?utm_source=github&utm_medium=compdfkit-web-example-nuxtjs&utm_campaign=compdfkit_web_example_nuxtjs_repo&ref_platform_id=github_compdfkit)</u>.
-* Experience seamless data extraction from PDFs with our online <u>[Extraction Demo](https://www.compdf.com/data-extraction/demo?utm_source=github&utm_medium=compdfkit-web-example-nuxtjs&utm_campaign=compdfkit_web_example_nuxtjs_repo&ref_platform_id=github_compdfkit)</u>.
-* Obtain [Intelligent Document Processing](https://www.compdf.com/solutions/intelligent-document-processing?utm_source=github&utm_medium=compdfkit-web-example-nuxtjs&utm_campaign=compdfkit_web_example_nuxtjs_repo&ref_platform_id=github_compdfkit) - customized one-stop solution.
-
-## Prerequisites
-
-To get started, you'll need:
-
-* The latest stable version of Node.js.
+  * Inspector - adjust annotation looks (line styles, borders, colors, opacity, font)
   
-* A package manager compatible with npm.
+  * Comment on Annotations and Update Status
   
-* License Key: Get a <u>[free 30-day license key](https://www.compdf.com/pricing?utm_source=github&utm_medium=compdfkit-web-example-nuxtjs&utm_campaign=compdfkit_web_example_nuxtjs_repo&ref_platform_id=github_compdfkit)</u> to test the project on our website.
+  * Import & Export & Flatten Annotations (XFDF, FDF, JSON)
+  
+  * Highlight, Underline, Strikeout, Squiggly
+  
+  * Shapes - Rectangle, Oval, Line, Arrow, Polygon, Polyline, Cloud
+  
+  * Stamps, Sound, Movie, File Attachment, Link, Distance, Perimeter, Area
 
+* **Document Editor**: 
+  
+  - Page manipulation - insert, delete, rotate, reorder, extract, crop
+  * Split PDF, Merge PDF
 
+* **Content Editor**: Edit PDF text and images directly like in Word
 
+* **Signatures**: 
+  
+  - Electronic Signatures - draw, type, image signatures
+  * Digital Signatures - certificate-based signature validation
 
+* **Forms**: 
+  
+  - Process fillable and static PDF forms
+  * Form filling, form creation, form flattening
 
+* **Security**: 
+  
+  - Encryption - set open password, permission password
+  * Restrict printing, copying, editing
 
+* **Redaction**: Permanently remove sensitive content from PDFs
 
+* **Layers**: View, edit, display, lock, and export specific layers within a file
 
+* **Color Separation**: Identify color models like CMYK, PMS. Toggle color visibility and view details.
 
-## Getting Started
+* **Measurement**: Distance, area, perimeter measurement tools
 
-1. Clone the repository: 
+* **Compare Documents**: Side-by-side document comparison to highlight differences
+
+## How to Make a Nuxt.js PDF Viewer App
+
+### Prerequisites
+
+- The latest stable version of Node.js.
+- A package manager compatible with npm.
+- Apply the License Key: Contact [ComPDFKit's sales team](https://www.compdf.com/contact-sales?utm_source=github_readme_web_example_nuxtjs&utm_medium=referral&utm_campaign=github_readme_web_example_nuxtjs) to get a free 30-day license to test the project.
+
+### Create a New Project
+
+Create a new Nuxt.js project:
 
 ```bash
-git clone https://github.com/ComPDFKit/compdfkit-web-example-nuxtjs.git
-cd compdfkit-web-example-nuxtjs
+npm init nuxt-app compdfkit-app
+cd compdfkit-app
 ```
 
+During setup, Nuxt.js will prompt you with a series of questions. Choose the default options by pressing Enter.
 
-2. Install the dependencies of the example project with npm:
+### Add ComPDF for Web
+
+1. Install the webviewer package:
 
 ```bash
-npm install
+npm i @compdfkit_pdf_sdk/webviewer --save
 ```
 
+2. Copy the static resource files to your project's static folder:
 
-For more information and operations, please visit our <u>[developer documentation](https://www.compdf.com/guides/pdf-sdk/web/nuxtjs?utm_source=github&utm_medium=compdfkit-web-example-nuxtjs&utm_campaign=compdfkit_web_example_nuxtjs_repo&ref_platform_id=github_compdfkit)</u>.
+```bash
+cp -a ./node_modules/@compdfkit_pdf_sdk/webviewer/dist/. ./static/webviewer
+```
 
-### Free Trial and License
+### Display a PDF
+
+1. Add your PDF document to the `static/webviewer/example` directory.
+
+2. Create `components/WebViewer.vue`:
+
+```vue
+<template>
+  <div id='webviewer' ref='viewer'></div>
+</template>
+
+<script>
+import { ref, onMounted } from 'vue'
+import WebViewer from '@compdfkit_pdf_sdk/webviewer'
+
+export default {
+  name: 'WebViewer',
+
+  setup() {
+    const viewer = ref(null)
+    let docViewer = null
+
+    onMounted(() => {
+      WebViewer.init({
+        path: '/',
+        pdfUrl: './example/developer_guide_web.pdf',
+        license: '<Input your license here>'
+      }, viewer.value).then((instance) => {
+        docViewer = instance.docViewer
+
+        docViewer.addEvent('documentloaded', async () => {
+          console.log('document loaded')
+        })
+      })
+    })
+
+    return {
+      viewer,
+      docViewer
+    }
+  }
+}
+</script>
+
+<style>
+#webviewer {
+  height: 100vh;
+  overflow: hidden;
+}
+</style>
+```
+
+3. Update `pages/index.vue` to include the WebViewer component:
+
+```vue
+<template>
+  <WebViewer />
+</template>
+
+<script>
+import WebViewer from '../components/WebViewer.vue'
+export default {
+  name: 'app',
+  components: {
+    WebViewer
+  }
+}
+</script>
+
+<style>
+html,
+body {
+  margin: 0;
+}
+</style>
+```
+
+### Run the App
+
+```bash
+npm run dev
+```
+
+Open `http://localhost:3000` on your browser.
+
+## Free Trial and License
 
 Enter your provided license from our Team into the `<Input your license here>` section within `components/WebViewer.vue`.
 
-ComPDF SDK for Web provides flexible licensing options that are easy to <u>[acquire license online](https://www.compdf.com/pricing?utm_source=github&utm_medium=compdfkit-web-example-nuxtjs&utm_campaign=compdfkit_web_example_nuxtjs_repo&ref_platform_id=github_compdfkit)</u>, making the process simple and eliminating the necessity to contact our support team, thereby saving you time. For further information, you are welcome to <u>[get in touch with our sales team](https://www.compdf.com/contact-sales?utm_source=github&utm_medium=compdfkit-web-example-nuxtjs&utm_campaign=compdfkit_web_example_nuxtjs_repo&ref_platform_id=github_compdfkit)</u>. Each license is restricted to the main domain and its related subdomains.
+ComPDF SDK for Web supports flexible licensing options. You can [apply for a license online](https://www.compdf.com/pricing?utm_source=github_readme_web_example_nuxtjs&utm_medium=referral&utm_campaign=github_readme_web_example_nuxtjs) to use it, reducing the process of contacting the service team and saving you time. If you need more information, you can [contact our sales team](https://www.compdf.com/contact-sales?utm_source=github_readme_web_example_nuxtjs&utm_medium=referral&utm_campaign=github_readme_web_example_nuxtjs). Each license is valid only for the root domain name and any of its subdomains. 
 
-Please be aware that sharing any documentation, sample code, or source code from the ComPDF SDK package with third parties is strictly forbidden.
+> *The license we provide on Github can only run the demo. If you want to integrate our Web PDF SDK into your own Nuxt.js project, please [apply for a free trial license](https://www.compdf.com/pricing?utm_source=github_readme_web_example_nuxtjs&utm_medium=referral&utm_campaign=github_readme_web_example_nuxtjs) on the website.*
 
-Additionally, the license available on GitHub is strictly for demo purposes. If you want to integrate our Web PDF SDK into your Nuxt.js project, you can obtain a <u>[free trial license](https://www.compdf.com/pricing?utm_source=github&utm_medium=compdfkit-web-example-nuxtjs&utm_campaign=compdfkit_web_example_nuxtjs_repo&ref_platform_id=github_compdfkit)</u> by visiting our website.
-
-
-## Run the Example
-
-`npm run dev`
-
-Please open your web browser and navigate to `http://localhost:3000`. Once there, you'll be able to view the PDF file you're looking to display.
-
+Please note that it is not allowed to distribute any documents, sample code, or source code from the ComPDF SDK package to third parties.
 
 ## Changelog
 
-Go to our [changelog](https://www.compdf.com/pdf-sdk/changelog-windows?utm_source=github&utm_medium=compdfkit-web-example-nuxtjs&utm_campaign=compdfkit_web_example_nuxtjs_repo&ref_platform_id=github_compdfkit) to keep up with the latest updates, improvements, and bug fixes.
+Go to our [changelog](https://www.compdf.com/pdf-sdk/changelog-web?utm_source=github_readme_web_example_nuxtjs&utm_medium=referral&utm_campaign=github_readme_web_example_nuxtjs) to keep up with the latest updates, improvements, and bug fixes.
 
 ## Support
 
-ComPDFKit has a professional R&D team that produces comprehensive technical documentation and guides to help developers. Furthermore, our support team is always on standby, ensuring you get immediate responses to any issues you report.
+ComPDF has a professional R&D team that produces comprehensive technical documentation and guides to help developers. Also, you can get an immediate response when reporting your problems to our support team.
 
-* For detailed information, please visit our <u>[Guides](https://www.compdf.com/guides/pdf-sdk/web/overview?utm_source=github&utm_medium=compdfkit-web-example-nuxtjs&utm_campaign=compdfkit_web_example_nuxtjs_repo&ref_platform_id=github_compdfkit)</u> page.
-  
-* For technical assistance, please reach out to our <u>[Technical Support](https://www.compdf.com/support?utm_source=github&utm_medium=compdfkit-web-example-nuxtjs&utm_campaign=compdfkit_web_example_nuxtjs_repo&ref_platform_id=github_compdfkit)</u>.
-  
-* To get more details and an accurate quote, please <u>[contact our Sales Team](https://www.compdf.com/contact-sales?utm_source=github&utm_medium=compdfkit-web-example-nuxtjs&utm_campaign=compdfkit_web_example_nuxtjs_repo&ref_platform_id=github_compdfkit)</u>.
-  
+- For detailed information, please visit our [Guides](https://www.compdf.com/guides/pdf-sdk/web/overview?utm_source=github_readme_web_example_nuxtjs&utm_medium=referral&utm_campaign=github_readme_web_example_nuxtjs) page.
+
+- For technical assistance, please reach out to our [Technical Support](https://www.compdf.com/support?utm_source=github_readme_web_example_nuxtjs&utm_medium=referral&utm_campaign=github_readme_web_example_nuxtjs).
+
+- To get more details and an accurate quote, please contact our [Sales Team](https://compdf.com/contact-sales?utm_source=github_readme_web_example_nuxtjs&utm_medium=referral&utm_campaign=github_readme_web_example_nuxtjs).
 
 ## Note
 
-We are excited to share that you can now sign up for a ComPDF API account to enjoy a <u>[free trial](https://api.compdf.com/api/pricing?utm_source=github&utm_medium=compdfkit-web-example-nuxtjs&utm_campaign=compdfkit_web_example_nuxtjs_repo&ref_platform_id=github_compdfkit)</u>, allowing you to process up to 200+ API calls each month at no cost.
+We are glad to announce that you can register a ComPDF API account for a [free trial](https://api.compdf.com/api/pricing?utm_source=github_readme_web_example_nuxtjs&utm_medium=referral&utm_campaign=github_readme_web_example_nuxtjs) to process 200+ API calls per month for free.
 
+## Related
+
+* Download [ComPDF SDK for Web](https://www.npmjs.com/package/@compdfkit_pdf_sdk/webviewer) in npm.
+
+* [Online Demo of ComPDF SDK](https://www.compdf.com/webviewer/demo?utm_source=github_readme_web_example_nuxtjs&utm_medium=referral&utm_campaign=github_readme_web_example_nuxtjs)
+
+* Integrate ComPDF SDK for Web into [Salesforce](https://www.compdf.com/pdf-sdk/salesforce?utm_source=github_readme_web_example_nuxtjs&utm_medium=referral&utm_campaign=github_readme_web_example_nuxtjs), [SharePoint](https://www.compdf.com/pdf-sdk/sharepoint?utm_source=github_readme_web_example_nuxtjs&utm_medium=referral&utm_campaign=github_readme_web_example_nuxtjs), [Microsoft Teams](https://www.compdf.com/contact-sales?utm_source=github_readme_web_example_nuxtjs&utm_medium=referral&utm_campaign=github_readme_web_example_nuxtjs), etc.
+
+* [ComPDF SDK for Web - Standalone Deployment](https://www.compdf.com/blog/compdfkit-standalone-deployment-for-web?utm_source=github_readme_web_example_nuxtjs&utm_medium=referral&utm_campaign=github_readme_web_example_nuxtjs)
+
+* Experience seamless data extraction from PDFs with our online [Extraction Demo](https://www.compdf.com/data-extraction/demo?utm_source=github_readme_web_example_nuxtjs&utm_medium=referral&utm_campaign=github_readme_web_example_nuxtjs)
+
+* Obtain [Intelligent Document Processing](https://www.compdf.com/solutions/intelligent-document-processing?utm_source=github_readme_web_example_nuxtjs&utm_medium=referral&utm_campaign=github_readme_web_example_nuxtjs) - customized one-stop solution.
 
 
 
